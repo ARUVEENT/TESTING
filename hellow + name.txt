@@ -1,0 +1,9 @@
+public class Main {
+    public static void main (String [] args){
+        String name;
+        Scanner number = new Scanner(System.in);
+        System.out.println("enter your name");
+        name = number.next();
+        System.out.println("hellow,"+name);
+    }
+}
